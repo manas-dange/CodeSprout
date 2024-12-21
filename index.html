@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeSprout - Learn Coding Through Challenges</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.24.1/themes/prism-tomorrow.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.24.1/prism.min.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">CodeSprout</div>
+            <div class="nav-links">
+                <a href="#how-it-works">How It Works</a>
+                <a href="#features">Features</a>
+                <a href="#demo-challenge">Try Demo</a>
+                <button class="cta-button secondary">Log In</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="floating-elements">
+                    <span class="code-element">{}</span>
+                    <span class="code-element">&lt;/&gt;</span>
+                    <span class="code-element">if()</span>
+                    <span class="code-element">=&gt;</span>
+                    <span class="code-element">[ ]</span>
+                    <span class="code-element">def</span>
+                    <span class="code-element">class</span>
+                    <span class="code-element">&&</span>
+                    <span class="code-element">for()</span>
+                    <span class="code-element">while</span>
+                    <span class="code-element">return</span>
+                    <span class="code-element">import</span>
+                    <span class="code-element">print()</span>
+                    <span class="code-element">#code</span>
+                    <span class="code-element">var</span>
+                    <span class="code-element">const</span>
+                    <span class="binary-element">01</span>
+                    <span class="binary-element">10</span>
+                    <span class="binary-element">00</span>
+                    <span class="binary-element">11</span>
+                </div>
+                <h1>Watch Your Code Grow</h1>
+                <p>Start your coding journey and watch your skills (and your tree) grow with every challenge you solve.</p>
+                <button class="cta-button primary">Start Growing Today</button>
+            </div>
+            <div class="hero-image">
+                <div class="growing-tree"></div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works scroll-reveal">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon">1</div>
+                    <h3>Choose Your Path</h3>
+                    <p>Select from various programming languages and difficulty levels</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">2</div>
+                    <h3>Solve Challenges</h3>
+                    <p>Complete interactive coding challenges designed for beginners</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">3</div>
+                    <h3>Watch Your Growth</h3>
+                    <p>See your progress visualized through your growing skill tree</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features scroll-reveal">
+            <h2>Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Beginner Friendly</h3>
+                    <p>Start from zero and build your confidence with carefully designed challenges</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Visual Progress</h3>
+                    <p>Watch your virtual tree grow as you complete more challenges</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Interactive Learning</h3>
+                    <p>Learn by doing with our hands-on coding environment</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Community Support</h3>
+                    <p>Connect with fellow learners and share your progress</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai-assistant" class="ai-feature scroll-reveal">
+            <h2>AI-Powered Learning Companion</h2>
+            <div class="ai-feature-container">
+                <div class="ai-feature-visual">
+                    <div class="code-animation">
+                        <pre><code class="typing-code">
+if stuck_on_problem:
+    ai_assistant.help()
+    understanding += 1
+while learning:
+    skills.grow()</code></pre>
+                        <div class="cursor"></div>
+                    </div>
+                    <div class="ai-particles"></div>
+                </div>
+                <div class="ai-feature-content">
+                    <h3>Meet Your Personal AI Coding Mentor</h3>
+                    <ul class="ai-benefits">
+                        <li>
+                            <span class="material-icons">psychology</span>
+                            <div>
+                                <h4>Smart Hints</h4>
+                                <p>Get contextual hints that guide you without giving away the solution</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="material-icons">school</span>
+                            <div>
+                                <h4>Learn Concepts</h4>
+                                <p>Understand the underlying principles through AI-powered explanations</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="material-icons">trending_up</span>
+                            <div>
+                                <h4>Adaptive Learning</h4>
+                                <p>Receive personalized guidance based on your progress and learning style</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="demo-challenge" class="demo-challenge scroll-reveal">
+            <h2>Try Demo Challenges</h2>
+            <div class="challenge-container">
+                <div class="challenge-wrapper" data-challenge="1">
+                    <div class="question-area">
+                        <h3>Problem 1: Calculate Factorial</h3>
+                        <div class="problem-description">
+                            <p>Write a function that calculates the factorial of a given number n.</p>
+                            <div class="example">
+                                <p><strong>Example:</strong></p>
+                                <p>Input: n = 5</p>
+                                <p>Output: 120</p>
+                                <p>Explanation: 5! = 5 × 4 × 3 × 2 × 1 = 120</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-area">
+                        <div class="code-editor">
+                            <div class="editor-header">
+                                <span class="language-label">Python</span>
+                                <button class="run-button">Run Code</button>
+                            </div>
+                            <div class="editor-content">
+                                <pre class="line-numbers"><code class="language-python">def factorial(n):
+    # Write your code here
+    pass
+
+# Test your function
+print(factorial(5))</code></pre>
+                            </div>
+                        </div>
+                        <div class="side-panel">
+                            <div class="tree-visualization">
+                                <h4>Your Progress Tree</h4>
+                                <div class="tree-container">
+                                    <div class="growing-tree-visual"></div>
+                                    <div class="tree-level">Level 1</div>
+                                </div>
+                            </div>
+                            <div class="ai-helper">
+                                <div class="ai-helper-header">
+                                    <h4>AI Learning Assistant</h4>
+                                    <button class="help-button">Get Help</button>
+                                </div>
+                                <div class="ai-chat-container">
+                                    <div class="ai-messages"></div>
+                                    <div class="ai-input">
+                                        <input type="text" placeholder="Ask about this challenge...">
+                                        <button class="send-button">
+                                            <span class="material-icons">send</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="challenge-wrapper hidden" data-challenge="2">
+                    <div class="question-area">
+                        <h3>Problem 2: Palindrome Check</h3>
+                        <div class="problem-description">
+                            <p>Write a function to check if a given string is a palindrome.</p>
+                            <div class="example">
+                                <p><strong>Example:</strong></p>
+                                <p>Input: "radar"</p>
+                                <p>Output: True</p>
+                                <p>Explanation: "radar" reads the same forwards and backwards</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-area">
+                        <div class="code-editor">
+                            <div class="editor-header">
+                                <span class="language-label">Python</span>
+                                <button class="run-button">Run Code</button>
+                            </div>
+                            <div class="editor-content">
+                                <pre class="line-numbers"><code class="language-python">def is_palindrome(text):
+    # Write your code here
+    pass
+
+# Test your function
+print(is_palindrome("radar"))
+print(is_palindrome("hello"))</code></pre>
+                            </div>
+                        </div>
+                        <div class="side-panel">
+                            <div class="tree-visualization">
+                                <h4>Your Progress Tree</h4>
+                                <div class="tree-container">
+                                    <div class="growing-tree-visual"></div>
+                                    <div class="tree-level">Level 1</div>
+                                </div>
+                            </div>
+                            <div class="ai-helper">
+                                <div class="ai-helper-header">
+                                    <h4>AI Learning Assistant</h4>
+                                    <button class="help-button">Get Help</button>
+                                </div>
+                                <div class="ai-chat-container">
+                                    <div class="ai-messages"></div>
+                                    <div class="ai-input">
+                                        <input type="text" placeholder="Ask about this challenge...">
+                                        <button class="send-button">
+                                            <span class="material-icons">send</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="challenge-wrapper hidden" data-challenge="3">
+                    <div class="question-area">
+                        <h3>Problem 3: FizzBuzz</h3>
+                        <div class="problem-description">
+                            <p>Write a function that prints numbers from 1 to n. For multiples of 3, print "Fizz". For multiples of 5, print "Buzz". For numbers that are multiples of both 3 and 5, print "FizzBuzz".</p>
+                            <div class="example">
+                                <p><strong>Example:</strong></p>
+                                <p>Input: n = 15</p>
+                                <p>Output: 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-area">
+                        <div class="code-editor">
+                            <div class="editor-header">
+                                <span class="language-label">Python</span>
+                                <button class="run-button">Run Code</button>
+                            </div>
+                            <div class="editor-content">
+                                <pre class="line-numbers"><code class="language-python">def fizzbuzz(n):
+    # Write your code here
+    pass
+
+# Test your function
+fizzbuzz(15)</code></pre>
+                            </div>
+                        </div>
+                        <div class="side-panel">
+                            <div class="tree-visualization">
+                                <h4>Your Progress Tree</h4>
+                                <div class="tree-container">
+                                    <div class="growing-tree-visual"></div>
+                                    <div class="tree-level">Level 1</div>
+                                </div>
+                            </div>
+                            <div class="ai-helper">
+                                <div class="ai-helper-header">
+                                    <h4>AI Learning Assistant</h4>
+                                    <button class="help-button">Get Help</button>
+                                </div>
+                                <div class="ai-chat-container">
+                                    <div class="ai-messages"></div>
+                                    <div class="ai-input">
+                                        <input type="text" placeholder="Ask about this challenge...">
+                                        <button class="send-button">
+                                            <span class="material-icons">send</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="challenge-navigation">
+                    <button class="nav-button prev-challenge" disabled>Previous Challenge</button>
+                    <span class="challenge-counter">Challenge 1/3</span>
+                    <button class="nav-button next-challenge">Next Challenge</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="community" class="community-section scroll-reveal">
+            <h2>Join Our Growing Developer Community</h2>
+            <div class="community-container">
+                <div class="community-stats">
+                    <div class="stat-card">
+                        <span class="material-icons">auto_graph</span>
+                        <h3>Grow Faster</h3>
+                        <p>Learn 3x faster with guided practice and AI assistance</p>
+                    </div>
+                    <div class="stat-card">
+                        <span class="material-icons">workspace_premium</span>
+                        <h3>Get Certified</h3>
+                        <p>Earn recognized certificates as you master new skills</p>
+                    </div>
+                    <div class="stat-card">
+                        <span class="material-icons">diversity_3</span>
+                        <h3>Learn Together</h3>
+                        <p>Join a supportive community of fellow learners</p>
+                    </div>
+                </div>
+                
+                <div class="community-features">
+                    <div class="community-card">
+                        <div class="card-icon">
+                            <span class="material-icons">forum</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Code Review Forums</h3>
+                            <p>Share your solutions and get feedback from experienced developers</p>
+                        </div>
+                    </div>
+                    <div class="community-card">
+                        <div class="card-icon">
+                            <span class="material-icons">leaderboard</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Growth Leaderboard</h3>
+                            <p>Track your progress and compete with fellow learners</p>
+                        </div>
+                    </div>
+                    <div class="community-card">
+                        <div class="card-icon">
+                            <span class="material-icons">groups</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Study Groups</h3>
+                            <p>Join language-specific study groups and grow together</p>
+                        </div>
+                    </div>
+                    <div class="community-card">
+                        <div class="card-icon">
+                            <span class="material-icons">celebration</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Achievement System</h3>
+                            <p>Earn badges and certificates as your skills grow</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="community-cta">
+                    <div class="cta-content">
+                        <h3>Ready to Join Our Community?</h3>
+                        <p>Start your coding journey with fellow learners today!</p>
+                    </div>
+                    <button class="cta-button primary">Join Community</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscription scroll-reveal">
+            <h2>Ready to Start Your Journey?</h2>
+            <p>Join our growing community of learners today!</p>
+            <div class="subscription-cards">
+                <div class="subscription-card">
+                    <h3>Coming Soon</h3>
+                    <p>Affordable monthly subscription with exclusive perks and rewards</p>
+                    <button class="cta-button primary">Join Waitlist</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>CodeSprout</h4>
+                <p>Learn coding through interactive challenges</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#features">Features</a>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">GitHub</a>
+                    <a href="#" class="social-icon">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 CodeSprout. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
