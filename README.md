@@ -58,16 +58,6 @@ We’re actively building new features to enhance your experience. Expect update
    ```  
    http://localhost:3000  
    ```  
-
----
-
-## 🛠️ Technologies Used  
-- **Frontend**: React.js  
-- **Backend**: Node.js with Express  
-- **AI Integration**: OpenAI API (or similar)  
-- **Database**: MongoDB  
-- **Styling**: Tailwind CSS  
-
 ---
 
 ## 🌱 Future Roadmap  
